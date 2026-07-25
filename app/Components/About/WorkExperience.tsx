@@ -1,44 +1,45 @@
 const WorkExperience = () => {
   return (
-    <section id="work-experience" className="mt-24">
-      <h2 className="font-bold text-lg tracking-widest text-black uppercase mb-10">
-        Work Experience
+    <section id="work-experience" className="mt-20">
+      <h2 className="text-2xl font-bold mb-10 uppercase tracking-wide">
+        WORK EXPERIENCE
       </h2>
 
-      <div className="flex flex-col gap-14">
-        <div className="flex gap-10 max-sm:flex-col">
-          <p className="text-light-gray whitespace-nowrap max-sm:hidden">
-            2024 - Present
+      <div className="flex flex-col md:flex-row gap-8">
+        {/* Date */}
+        <div className="min-w-[150px] text-gray-500">
+          2024 — Present
+        </div>
+
+        {/* Content */}
+        <div>
+          <h3 className="text-xl font-semibold text-black">
+            Software Development Trainee
+          </h3>
+
+          <p className="text-gray-500 mt-1 mb-5">
+            Professional Software Development Course – Jawan Pakistan
           </p>
 
-          <div>
-            <h3 className="text-white text-lg font-semibold">
-              Software Development Trainee
-            </h3>
-
-            <p className="text-light-gray mb-4">
-              Professional Software Development Course – Jawan Pakistan
-              <span className="text-light-gray ml-2 max-sm:inline-block hidden">
-                • (2024 - Present)
-              </span>
-            </p>
-
-            <p className="text-light-gray">
+          <div className="space-y-5 text-gray-700 leading-8">
+            <p>
               I am currently pursuing a Professional Software Development course
               at Jawan Pakistan, where I have gained hands-on experience in
               HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, and
               TypeScript. Since starting my web development journey in 2024, I
               have built a strong foundation in modern frontend development
               through consistent learning and practical projects.
-              <br />
-              <br />
+            </p>
+
+            <p>
               During my training, I completed projects including a Student
               Management System, Contact Book Application, and multiple
               responsive web applications. These projects strengthened my
               understanding of component-based architecture, state management,
               routing, and responsive design.
-              <br />
-              <br />
+            </p>
+
+            <p>
               I also have experience with Git and GitHub for version control and
               focus on writing clean, maintainable code. In addition, I create
               AI-generated content and manage a YouTube channel with 78.5K+

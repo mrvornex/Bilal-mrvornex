@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muhammad Bilal - Frontend Developer",
     description: "Portfolio of Muhammad Bilal - React & TypeScript Developer",
-    url: "https://your-portfolio-site.com",
+    url: "https://mrvornex.vercel.app",
     siteName: "Muhammad Bilal Portfolio",
     images: [
       {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Muhammad Bilal - Frontend Developer",
-    description: "Portfolio of Muhammad Bilal - React & TypeScript Developer",
+    description: "Portfolio of Muhammad Bilal - Full Stack Developer",
     images: ["/og-image.png"],
   },
 };

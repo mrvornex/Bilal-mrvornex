@@ -3,20 +3,31 @@ interface TechItemProps {
   icon: string;
 }
 
-const TechItem: React.FC<TechItemProps> = ({ name, icon }) => {
+const TechItem = ({ name, icon }: TechItemProps) => {
   return (
-    <div className="border border-gray-200 rounded-lg p-6 flex flex-col items-center justify-center hover:bg-gray-50 transition-colors duration-200 cursor-default">
-
+    <div
+      className="
+        border border-gray-200
+        rounded-md
+        p-5
+        flex flex-col
+        items-center
+        justify-center
+        gap-3
+        hover:bg-gray-50
+        transition-all
+        duration-200
+      "
+    >
       <img
-        src={`/${icon}`}
+        src={icon}
         alt={name}
-        className="w-10 h-10 mb-4"
+        className="w-10 h-10 object-contain"
       />
 
-      <p className="text-sm font-medium text-gray-700 text-center">
+      <p className="text-sm text-gray-700 text-center font-mono">
         {name}
       </p>
-
     </div>
   );
 };

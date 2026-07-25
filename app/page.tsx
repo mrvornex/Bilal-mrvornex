@@ -72,8 +72,8 @@ const Page = () => {
     <div className="relative">
 
       <>
-        <div className="bg-white min-h-screen text-gray-700 antialiased pt-5 font-mono">
-          <div className="max-w-[47.5rem] mx-auto px-6 text-gray-500">
+        <div className="bg-white min-h-screen text-gray-700 antialiased font-mono">
+          <div className="max-w-[47.5rem] mx-auto text-gray-500">
             <Header />
             <main className="pb-10">
               <Hero />
