@@ -119,33 +119,37 @@ const Hero = () => {
         </a>
 
         {/* Activity Section */}
-        <div className="mt-14 w-full">
-          <h2 className="text-3xl font-bold mb-4 tracking-wide">
-            ACTIVITY
-          </h2>
+       {/* Activity Section */}
+<div className="mt-14 w-full">
+  <h2 className="text-3xl font-bold mb-4 tracking-wide">
+    ACTIVITY
+  </h2>
 
-          <p className="text-gray-600 mb-6">
-            GitHub contributions over the last year.
-          </p>
+  <p className="text-gray-600 mb-6">
+    GitHub contributions over the last year.
+  </p>
 
-          <div className="w-full overflow-x-auto pb-3">
-            <div className="min-w-max">
-              <GitHubCalendar
-                username="mrvornex"
-                colorScheme="light"
-                theme={{
-                  light: [
-                    "#ebedf0",
-                    "#d1d5db",
-                    "#9ca3af",
-                    "#6b7280",
-                    "#1f2937",
-                  ],
-                }}
-              />
-            </div>
-          </div>
-        </div>
+  <div className="w-full flex justify-center overflow-hidden">
+    <div className="origin-top scale-[0.38] sm:scale-[0.65] md:scale-[0.8] lg:scale-84">
+      <GitHubCalendar
+        username="mrvornex"
+        colorScheme="light"
+        fontSize={14}
+        blockSize={12}
+        blockMargin={4}
+        theme={{
+          light: [
+            "#ebedf0",
+            "#d1d5db",
+            "#9ca3af",
+            "#6b7280",
+            "#1f2937",
+          ],
+        }}
+      />
+    </div>
+  </div>
+</div>
       </div>
     </section>
   );
