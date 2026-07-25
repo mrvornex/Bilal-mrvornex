@@ -29,12 +29,12 @@ const Header = () => {
             projects
           </a>
 
-          <a
+          {/* <a
             href="#skills"
             className="hover:text-black transition-colors"
           >
             skills
-          </a>
+          </a> */}
 
           <a
             href="#contact"
