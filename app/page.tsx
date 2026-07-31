@@ -74,7 +74,7 @@ const Page = () => {
       <>
         <div className="bg-white min-h-screen text-gray-700 antialiased font-mono">
           <div className="max-w-[47.5rem] px-6 mx-auto text-gray-500">
-            <Header />
+            {/* <Header /> */}
             <main className="pb-10">
               <Hero />
               <TechStack />
@@ -82,7 +82,7 @@ const Page = () => {
               <Projects />
               {/* <Contact /> */}
             </main>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
 

@@ -23,15 +23,16 @@ const WorkExperience = () => {
 
           <div className="space-y-5 text-gray-700 leading-8">
             <p>
-              I am currently pursuing a Professional Software Development course
-              at Jawan Pakistan, where I have gained hands-on experience in
-              HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, and
-              TypeScript. Since starting my web development journey in 2024, I
-              have built a strong foundation in modern frontend development
-              through consistent learning and practical projects.
+              I have completed a Professional Software Development course from Jawan Pakistan, where I gained hands-on experience in HTML, CSS, JavaScript, React, Tailwind CSS, Next.js, and TypeScript. I started my web development journey in 2024, and since then I have built a strong foundation in modern frontend development through consistent practice and real-world projects.
+
+              During my training, I developed projects including a Student Management System, a Contact Book Application, and several responsive web applications. These projects gave me a solid understanding of component-based architecture, state management, routing, and responsive design.
+
+              I also have experience with Git and GitHub for version control, and I always strive to write clean, maintainable, and professional code.
+
+              Currently, I am expanding my skills into backend development — learning Node.js, Express.js, and GraphQL — so that I can build full-stack applications.
             </p>
 
-            <p>
+            {/* <p>
               During my training, I completed projects including a Student
               Management System, Contact Book Application, and multiple
               responsive web applications. These projects strengthened my
@@ -45,7 +46,7 @@ const WorkExperience = () => {
               AI-generated content and manage a YouTube channel with 78.5K+
               subscribers. I also work with AI-powered image enhancement,
               professional portraits, and customized visual editing.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

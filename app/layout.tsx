@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
+import Header from "./Components/Navbar/Header/header";
+import Footer from "./Components/Footer/Footer2";
 
 // import Particles from "./Components/Home/Particles";
 
@@ -64,10 +66,13 @@ export default function RootLayout({
       >
         {/* Optional Background Effects */}
         {/* <Particles /> */}
-
-        {/* <Navbar /> */}
-        {children}
-        {/* <Footer /> */}
+        <div className="bg-white min-h-screen text-gray-700 antialiased font-mono">
+          <div className="max-w-[55.5rem] px-6 mx-auto text-gray-500">
+            <Header />
+            {children}
+            <Footer />
+          </div>
+        </div>
       </body>
     </html>
   );

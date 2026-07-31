@@ -1,17 +1,19 @@
 "use client";
 
+import Link from "next/link";
+
 const Header = () => {
   return (
     <header className="py-8 font-mono">
       <nav className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-        
+
         {/* Logo */}
-        <a
+        <Link
           href="/"
           className="text-[22px] text-black w-fit"
         >
           Bilal
-        </a>
+        </Link>
 
         {/* Navigation */}
         <div className="flex flex-wrap gap-6 text-[16px] text-gray-500">
@@ -22,19 +24,12 @@ const Header = () => {
             experience
           </a>
 
-          <a
-            href="#projects"
+          <Link
+            href="/projects"
             className="hover:text-black transition-colors"
           >
             projects
-          </a>
-
-          {/* <a
-            href="#skills"
-            className="hover:text-black transition-colors"
-          >
-            skills
-          </a> */}
+          </Link>
 
           <a
             href="#contact"
